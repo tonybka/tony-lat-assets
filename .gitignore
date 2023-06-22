@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Build generated
+build/
+
+# Environments
+.DS_Store
+.env
+.venv
+env/
+venv/
+ENV/
+
+# mypy
+.mypy_cache/
+testeth
+.idea
+node_modules
+bin_output
+logs

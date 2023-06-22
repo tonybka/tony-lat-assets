@@ -1,0 +1,24 @@
+{
+  "name": "bankhack",
+  "version": "1.0.0",
+  "description": "Happy hacking project",
+  "main": "index.js",
+  "scripts": {
+    "create-snapshot-dir": "bash scripts/snapshot_dir.sh",
+    "migrate": "npm run create-snapshot-dir && truffle migrate --reset --network localhost",
+    "ganache-cli": "npx ganache-cli -h 0.0.0.0 --accounts 30 -l 10000000 --gasPrice 0 -e 0xfffffffffff --port 8545 -m \"capable summer fly strong ozone loan spring unveil enter random capable brick picnic sketch hip\"",
+    "test": "truffle test --network localhost"
+  },
+  "author": "tonybka",
+  "license": "ISC",
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.3",
+    "solhint": "^3.3.6",
+    "truffle": "5.1.35"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "web3-utils": "^1.5.1"
+  }
+}
